@@ -31,5 +31,6 @@ node --version
 #creating dotfiles symbolics
 git clone https://github.com/aryzing/dotfiles.git
 ln -sb dotfiles/.gitconfig .
+ln -sb dotfiles/.git-prompt.sh .
 ln -sb dotfiles/.profile .
 ln -sb dotfiles/.vimrc .
