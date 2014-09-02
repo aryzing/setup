@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
-#packeges
-sudo -- sh -c 'apt-get update; apt-get install -y git python g++ make tree; add-apt-repository -y ppa:chris-lea/node.js; apt-get update; apt-get install -y nodejs;'
+#packages
+sudo -- sh -c 'apt-get update; apt-get install -y git python g++ make tree; add-apt-repository -y ppa:chris-lea/node.js; apt-get update; apt-get install -y nodejs; apt-get install -y vim'
 
 #node modules
 npm install restler csv accounting cheerio commander
@@ -27,6 +27,20 @@ npm --version
 echo "node:" 
 which node 
 node --version
+echo "vim:"
+which vim
+vim --version
+
+#cleaning home directory after Ubuntu default install
+rm -r Documents
+rm -r Music
+rm -r Pictures
+rm -r Templates
+rm -r Videos
+rm examples.desktop
+mv Downloads dl
+mv Desktop desktop
+mv Public public
 
 #creating dotfiles symbolics
 git clone https://github.com/aryzing/dotfiles.git
