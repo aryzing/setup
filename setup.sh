@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
+#start at home directory
+cd
+
 #packages
 sudo -- sh -c 'apt-get update; apt-get install -y git python g++ make tree vlc dconf-cli chromium-browser; add-apt-repository -y ppa:chris-lea/node.js; apt-get update; apt-get install -y nodejs; apt-get install -y vim'
 
