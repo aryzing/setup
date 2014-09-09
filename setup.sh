@@ -5,10 +5,6 @@ cd
 #packages
 sudo -- sh -c 'apt-get update; apt-get install -y git python g++ make tree vlc dconf-cli chromium-browser; add-apt-repository -y ppa:chris-lea/node.js; apt-get update; apt-get install -y nodejs; apt-get install -y vim'
 
-#git bash completion
-wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-echo "source ~/git-completion.bash" >> .bashrc
-
 #node modules
 npm install restler csv accounting cheerio commander
 
