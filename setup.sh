@@ -50,11 +50,3 @@ ln -sb dotfiles/.git-prompt.sh .
 ln -sb dotfiles/.profile .
 ln -sb dotfiles/.vimrc .
 
-#solarized color theme
-git clone git://github.com/Anthony25/gnome-terminal-colors-solarized.git
-mv gnome-terminal-colors-solarized/ solarized
-cd solarized
-./install.sh -s light -p Default
-cd
-
-
