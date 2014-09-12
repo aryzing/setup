@@ -2,13 +2,11 @@
 #start at home directory
 cd
 
-#practice comment
-
 #packages
 sudo -- sh -c 'apt-get update; apt-get install -y git python g++ make tree vlc dconf-cli chromium-browser openssh-server; add-apt-repository -y ppa:chris-lea/node.js; apt-get update; apt-get install -y nodejs; apt-get install -y vim'
 
 #node modules
-npm install restler csv accounting cheerio commander
+npm install restler csv accounting cheerio commander express
 
 #installation confirmation
 echo "git:" 
@@ -37,12 +35,12 @@ which vim
 vim --version
 
 #cleaning home directory after Ubuntu default install
-rm -r Documents
-rm -r Music
-rm -r Pictures
-rm -r Templates
-rm -r Videos
-rm examples.desktop
+rm -rf Documents
+rm -rf Music
+rm -rf Pictures
+rm -rf Templates
+rm -rf Videos
+rm -f examples.desktop
 mv Downloads dl
 
 #creating dotfiles symbolics
