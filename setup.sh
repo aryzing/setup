@@ -6,7 +6,7 @@ cd
 sudo -- sh -c 'apt-get update; apt-get install -y git python g++ make tree vlc dconf-cli chromium-browser openssh-server; add-apt-repository -y ppa:chris-lea/node.js; apt-get update; apt-get install -y nodejs; apt-get install -y vim'
 
 #node modules
-npm install restler csv accounting cheerio commander express
+npm install restler csv accounting cheerio commander xpath xmldom express
 
 #installation confirmation
 echo "git:" 
