@@ -12,4 +12,4 @@ ln -sb dotfiles/.gitconfig .
 ln -sb dotfiles/.git-prompt.sh .
 ln -sb dotfiles/.profile .
 ln -sb dotfiles/.vimrc .
-ln -sb dotfiles/.tmux.config .
+ln -sb dotfiles/.tmux.conf .
