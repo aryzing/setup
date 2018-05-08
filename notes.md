@@ -76,6 +76,7 @@ Disable autocompletion of snippets.
   },
   "[javascript]": {
     "editor.tabSize": 2
-  }
+  },
+  "ActiveFileInStatusBar.fullpath": false
 }
 ```
