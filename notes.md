@@ -55,6 +55,7 @@ Disable autocompletion of snippets.
 * C/C++: `ms-vscode.cpptools`
 * Prettier - Code formatter: `esbenp.prettier-vscode`
 * TSLint: `eg2.tslint`
+* Go: `ms-vscode.go`
 
 ## User Config
 
