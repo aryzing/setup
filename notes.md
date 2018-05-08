@@ -56,6 +56,7 @@ Disable autocompletion of snippets.
 * Prettier - Code formatter: `esbenp.prettier-vscode`
 * TSLint: `eg2.tslint`
 * Go: `ms-vscode.go`
+* Active File In StatusBar: `RoscoP.activefileinstatusbar`
 
 ## User Config
 
