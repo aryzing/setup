@@ -60,7 +60,6 @@ Disable autocompletion of snippets.
 
 ```json
 {
-  "editor.tabSize": 2,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -69,6 +68,12 @@ Disable autocompletion of snippets.
   "files.trimFinalNewlines": true,
   "window.enableMenuBarMnemonics": false,
   "workbench.colorTheme": "Solarized Light",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "[go]": {
+    "editor.insertSpaces": false
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  }
 }
 ```
