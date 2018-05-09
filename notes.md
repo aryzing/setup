@@ -62,12 +62,18 @@ Disable autocompletion of snippets.
 
 ```json
 {
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "http.proxyStrictSSL": false, // only if behind a proxy
   "window.enableMenuBarMnemonics": false,
   "workbench.colorTheme": "Solarized Light",
   "workbench.startupEditor": "newUntitledFile",
@@ -77,6 +83,16 @@ Disable autocompletion of snippets.
   "[javascript]": {
     "editor.tabSize": 2
   },
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn"
+  },
+  "cSpell.userWords": ["Restyped", "oauth", "onboarding", "proxying", "zopa"],
   "ActiveFileInStatusBar.fullpath": false
+}
+```
+
+```json
+{
+  "diffEditor.ignoreTrimWhitespace": false
 }
 ```
