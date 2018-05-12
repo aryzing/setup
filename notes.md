@@ -1,14 +1,12 @@
 # Install git
 
 ```sh
-sudo apt-get install git
+sudo apt install git
 ```
 
-## Configuring git
+## Git SSH authentication
 
-```sh
-ln -sb dotfiles/.gitconfig .
-```
+Instructions [here](https://help.github.com/articles/generating-an-ssh-key/).
 
 # Install nvm
 
@@ -22,18 +20,6 @@ Install latest version of node:
 nvm install node
 ```
 
-## Global node Packages
-
-```sh
-npm install -g nodemon
-npm install -g babel-cli
-npm install -g bower
-```
-
-# Git SSH authentication
-
-Instructions [here](https://help.github.com/articles/generating-an-ssh-key/).
-
 # Atom editor
 
 Download [here](https://atom.io/).
@@ -41,12 +27,6 @@ Download [here](https://atom.io/).
 ## Minor configuration
 
 Disable autocompletion of snippets.
-
-## Packages
-
-* `atom-beautify`
-* `git-plus`
-* `react` [react](https://atom.io/packages/react).
 
 # VS Code
 
