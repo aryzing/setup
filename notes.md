@@ -91,8 +91,28 @@ Disable autocompletion of snippets.
 }
 ```
 
+## Keyboard shortcuts
+
 ```json
-{
-  "diffEditor.ignoreTrimWhitespace": false
-}
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+\\",
+    "command": "revealInExplorer"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "revealInExplorer"
+  }
+]
 ```
