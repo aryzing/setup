@@ -64,6 +64,7 @@ Disable autocompletion of snippets.
     "editor.tabSize": 2
   },
   "[markdown]": {
+    "editor.tabSize": 2,
     "editor.wordWrap": "wordWrapColumn"
   },
   "cSpell.userWords": ["Restyped", "oauth", "onboarding", "proxying", "zopa"],
